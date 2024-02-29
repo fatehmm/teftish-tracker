@@ -1,0 +1,14 @@
+{
+	"name": "teftish-tracker",
+	"authors": ["Fateh Mammadli <fatehmhtn@gmail.com>"],
+	"description": "Transfer data to Teftish",
+	"main": "dist/teftish-tracker.min.js",
+	"keywords": ["teftish", "tracking", "tracker", "analytics", "statistics"],
+	"ignore": ["**/.*", "build.js", "package.json"],
+	"license": "MIT",
+	"homepage": "https://github.com/electerious/ackee-tracker",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/electerious/ackee-tracker.git"
+	}
+}

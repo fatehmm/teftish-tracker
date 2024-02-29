@@ -1,0 +1,45 @@
+{
+  "name": "ackee-tracker",
+  "version": "5.1.0",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "Transfer data to Ackee",
+  "main": "dist/ackee-tracker.min.js",
+  "module": "src/scripts/main.js",
+  "keywords": [
+    "ackee",
+    "tracking",
+    "tracker",
+    "analytics",
+    "statistics"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "demo": "http-server -o",
+    "test": "npm run lint",
+    "lint": "eslint \"src/**/*.js\""
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/electerious/ackee-tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/ackee-tracker.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {
+    "platform": "^1.3.6"
+  },
+  "devDependencies": {
+    "@electerious/eslint-config": "^3.1.0",
+    "http-server": "^0.12.3",
+    "rosid-handler-js": "^13.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@electerious/eslint-config"
+  }
+}
